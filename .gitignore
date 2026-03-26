@@ -1,0 +1,11 @@
+# Ignore runtime / environment-specific config (contains credentials)
+/includes/config.php
+
+# Ignore OS / tooling noise
+.DS_Store
+Thumbs.db
+
+# Ignore local server logs if any
+error_log
+*.log
+

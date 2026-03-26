@@ -1,0 +1,8 @@
+<?php
+
+declare(strict_types=1);
+
+require_once __DIR__ . '/../includes/auth.php';
+
+require_auth();
+redirect(role_dashboard_path((string) current_user()['role']));
