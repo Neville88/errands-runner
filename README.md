@@ -54,23 +54,6 @@ index.php              Landing page
 4. Open:
    - `http://localhost/ErrandRunner/`
 
-## Hosting Notes (cPanel)
-
-- Upload project into `public_html/errands`
-- Ensure app files are directly under `errands` (not nested in an extra folder)
-- Import SQL into your cPanel database
-- Use PHP 8.1+ (8.2 recommended)
-- If needed, force PHP handler in `public_html/errands/.htaccess`
-
-## Configuration
-
-Main config file: `includes/config.php`
-
-The project uses environment detection by host:
-- Localhost -> local DB credentials
-- Production domain -> hosted DB credentials
-
-For safe sharing/reference, use `includes/config.example.php` as a template.
 
 ## User Flow Summary
 
@@ -89,8 +72,5 @@ For safe sharing/reference, use `includes/config.example.php` as a template.
 - `includes/functions.php` - major business logic
 - `includes/validators.php` - input validation rules
 
-## Support Details in App
 
-- Support email: `ssekiziyivudenison19@gmail.com`
-- Support phone: `+256 706 888958`
 
